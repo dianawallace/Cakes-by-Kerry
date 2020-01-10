@@ -1,1 +1,12 @@
+.branding {
+  font-size 20px;
+}
 
+.showcase {
+  background:url('../img/maincake.jpg') no-repeat;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  padding: 140px 100px;
+  color: #ffffff;
+}
