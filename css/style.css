@@ -9,3 +9,9 @@
   padding: 140px 100px;
   color: #ffffff;
 }
+
+.showcase h1 {
+  font-size 40px;
+  font-weight: 700;
+  text-transform: uuppercase;
+}
