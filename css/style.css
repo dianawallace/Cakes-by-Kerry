@@ -1,5 +1,5 @@
 .branding {
-  font-size 20px;
+  font-size: 20px;
 }
 
 .showcase {
@@ -11,7 +11,7 @@
 }
 
 .showcase h1 {
-  font-size 40px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
 }
