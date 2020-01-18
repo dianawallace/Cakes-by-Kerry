@@ -57,11 +57,44 @@
   </section>
 
   <!-- About -->
-  <section class="section">
+  <section id="about" class="section">
     <div class="w3-container">
       <div class="w3-row-padding">
         <div class="w3-col m5">
           <img src="img/about.jpg">
+        </div>
+        <div class="w3-col m7">
+          <button onclick="accordionFunction('cake')" class="w3-button w3-block w3-left-align">
+            Our different Cakes</button>
+
+          <div id="cake" class="w3-container w3-show">
+            <h3>The Cakes</h3>
+            <p>At Cakes by Karen, each cake is custom created for you, and your occasion. We can create photo cakes from
+              your digital image or printed photo. For corporate cakes, imagine your logo professionally displayed at
+              your next big event. The possibilities are endless!
+              We have 15 different delicious flavors for you as well as several themes to choose from.</p>
+          </div>
+          <button onclick="accordionFunction('cupcake')" class="w3-button w3-block w3-left-align">
+            How about a Cupcake</button>
+
+          <div id="cupcake" class="w3-container w3-hide">
+            <h3>The Cupcakes</h3>
+            <p>We also offer elegant and delicious Cupcakes. What a unique way to leave a lasting impression. Because
+              when it comes to cake - there is a difference!
+              Fresh cupcakes are available daily, to satisfy that Cakes by Karen cake craving. To create a personalized
+              and unique event, why not create theme cupcakes for your guests. They will enjoy the perfect amount of
+              cake, and you can even offer a variety of flavors!</p>
+          </div>
+          <button onclick="accordionFunction('cookie')" class="w3-button w3-block w3-left-align">
+            Cookies the other Dessert</button>
+
+          <div id="cookie" class="w3-container w3-hide">
+            <h3>The Cookies</h3>
+            <p>When you have several hundred people at your event, or as a unique party favor, how about a theme cookie.
+              We can create a cookies of all sizes and colors. Talk to us about your event, and we'll help you find a
+              create way to get them talking about your event for a long time after they leave!
+              Fresh cookies are always available at all locations daily, to satisfy that sweets craving.</p>
+          </div>
         </div>
       </div>
 
