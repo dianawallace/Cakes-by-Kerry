@@ -45,4 +45,9 @@
   body {
     margin-top: 150px;
   }
+
+  .showcase {
+    height: 400px;
+    padding: 60px 0;
+  }
 }
