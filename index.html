@@ -32,7 +32,8 @@
       <p class="w3-text-shadow w3-animate-opacity">Cakes by Kerry can create custom cake flavors and colors to match the
         theme of just about any occasion.</p>
       <p class="w3-text-shadow w3-animate-opacity">Ready made cakes are also available daily.</p>
-      <button class="w3-button w3-pink w3-large w3-hover-pale-red">Order Here</button>
+      <button onclick="document.getElementById('start-modal').style.display='block'"
+        class="w3-button w3-pink w3-large w3-hover-pale-red">Order Here</button>
     </div>
   </section>
 
@@ -159,7 +160,7 @@
   <div id="start-modal" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-pink">
-        <span onclick="document.getELementById('start-modal').style.display='none'">&times;</span>
+        <span onclick="document.getElementById('start-modal').style.display='none'">&times;</span>
         <h2>Order Here</h2>
       </header>
 
@@ -174,7 +175,7 @@
             <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Password">
             <label>Confirm Password</label>
             <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Password">
-            <button class="w3-pink w3-btn-block w3-section w3-padding">Order Here</button>
+            <button class="w3-pink w3-btn-block w3-section w3-padding">Submit</button>
           </div>
       </div>
     </div>
